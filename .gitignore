@@ -1,0 +1,26 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Local runtime, dependencies and generated output
+.env*
+!.env.example
+!.env.sample
+node_modules/
+.next/
+.next-dev/
+out/
+dist/
+build/
+.vercel/
+.vscode/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.log
+*.task
+*.task.part
+.venv*/
